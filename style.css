@@ -1,0 +1,35 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, #1e3a8a, #2563eb);
+    color: white;
+    text-align: center;
+}
+
+.section-heading {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.list-inline {
+    padding-left: 0;
+    list-style: none;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+.project-item {
+    background: #fff;
+    padding: 20px;
+    margin: 10px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}

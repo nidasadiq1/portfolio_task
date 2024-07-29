@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body class="bg-gray-100 text-gray-800">
+
+    <nav class="bg-blue-600 text-white p-4 fixed w-full z-10">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold">Nida Sadiq</a>
+            <div>
+                <a href="#about" class="mx-4 hover:text-gray-300">About</a>
+                <a href="#skills" class="mx-4 hover:text-gray-300">Skills</a>
+                <a href="#projects" class="mx-4 hover:text-gray-300">Projects</a>
+                <a href="#contact" class="mx-4 hover:text-gray-300">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="bg-blue-500 text-white h-screen flex items-center justify-center text-center" id="home">
+        <div>
+            <h1 class="text-5xl font-bold" data-aos="fade-up">Welcome to My Portfolio</h1>
+            <p class="text-xl mt-4" data-aos="fade-up" data-aos-delay="200">Showcasing my skills and projects</p>
+            <a href="#about" class="mt-6 inline-block bg-white text-blue-500 px-6 py-3 rounded-full font-semibold hover:bg-gray-100" data-aos="fade-up" data-aos-delay="400">Learn More</a>
+        </div>
+    </header>
+
+    <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8" data-aos="fade-up">About Me</h2>
+            <p class="text-lg" data-aos="fade-up" data-aos-delay="200">Detail-oriented Frontend Developer with a solid foundation in web development technologies including
+                HTML and CSS. Possesses expertise in C++, bringing a structured problem-solving approach to
+                software development. Strong collaborator with a passion for learning and leveraging emerging
+                technologies to deliver innovative solutions.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="py-20 bg-blue-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8" data-aos="fade-up">Skills</h2>
+            <div class="flex flex-wrap justify-center">
+                <div class="p-4" data-aos="fade-up" data-aos-delay="200">
+                    <span class="bg-white rounded-full px-4 py-2 shadow-md">HTML</span>
+                </div>
+                <div class="p-4" data-aos="fade-up" data-aos-delay="300">
+                    <span class="bg-white rounded-full px-4 py-2 shadow-md">CSS</span>
+                </div>
+                <div class="p-4" data-aos="fade-up" data-aos-delay="400">
+                    <span class="bg-white rounded-full px-4 py-2 shadow-md">JavaScript</span>
+                </div>
+                <div class="p-4" data-aos="fade-up" data-aos-delay="500">
+                    <span class="bg-white rounded-full px-4 py-2 shadow-md">React</span>
+                </div>
+                <div class="p-4" data-aos="fade-up" data-aos-delay="600">
+                    <span class="bg-white rounded-full px-4 py-2 shadow-md">Node.js</span>
+                </div>
+                <div class="p-4" data-aos="fade-up" data-aos-delay="600">
+                    <span class="bg-white rounded-full px-4 py-2 shadow-md">Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8" data-aos="fade-up">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="200">
+                    <h3 class="text-2xl font-bold mb-4">Bank Management System (C++ - OOP):</h3>
+                    <p class="text-gray-700">Developed a comprehensive bank management system using C++ with a focus on object-oriented
+                        principles. Implemented features such as account management, transaction processing, and user
+                        authentication.
+                        </p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                    <h3 class="text-2xl font-bold mb-4">Maze Runner (C++ - DSA):                    </h3>
+                    <p class="text-gray-700">Created an interactive maze-solving application in C++ utilizing various data structures and algorithms.
+                        Implemented functionalities for maze generation, pathfinding using algorithms like BFS or DFS, and
+                        visualization.
+                        </p>
+                </div>
+         
+            <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="text-2xl font-bold mb-4">Superstore (MySQL):                 </h3>
+                <p class="text-gray-700">Designed and implemented a relational database system for a superstore using MySQL. Developed
+                    schemas for product inventory, customer information, and sales transactions. Implemented queries for
+                    data retrieval and management
+                    </p>
+     
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-lg" data-aos="fade-up" data-aos-delay="300">
+            <h3 class="text-2xl font-bold mb-4">Hangman (React):               </h3>
+            <p class="text-gray-700">Developed a classic Hangman game using React. Implemented game logic, user interface, and state
+                management with React hooks.
+                </p>
+        </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-blue-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-8" data-aos="fade-up">Contact</h2>
+            <p class="text-lg mb-4" data-aos="fade-up" data-aos-delay="200">If you'd like to get in touch, feel free to email me at <a href="mailto:your.email@example.com" class="text-blue-600">nidasadiq@gmail.com</a></p>
+            <a href="mailto:your.email@example.com" class="mt-6 inline-block bg-blue-500 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-600" data-aos="fade-up" data-aos-delay="400">Send an Email</a>
+        </div>
+    </section>
+
+    <footer class="bg-blue-600 text-white text-center py-4">
+        <div class="container mx-auto">
+            <p>&copy; 2024 Nida Sadiq. All rights reserved.</p>
+        </div>
+    </footer>
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
